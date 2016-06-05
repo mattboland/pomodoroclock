@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+	<link href='https://fonts.googleapis.com/css?family=Exo' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" type="text/css" href="pomodoro.css">
+	<title></title>
+</head>
+<body>
+
+  <audio id="asound" src="http://www.wavsource.com/snds_2016-05-22_6159520873604738/sfx/blip.wav" preload="auto"></audio>
+  <audio id='bsound' src='http://www.wavsource.com/snds_2016-05-22_6159520873604738/sfx/ahem_x.wav' preload='auto'></audio> 
+  
+  <h1 class='text-center'>Pomodoro Clock</h1>
+  <div class='row text-center'>
+     <div id='timer'></div>
+    <button id='less' class='btn btn-default'> - </button>
+    <button id='start' class='btn btn-default fa fa-play'></button>
+    <button id='reset' class='btn btn-default fa fa-refresh'></button>
+    <button id='more' class='btn btn-default'> +</button>
+    
+  </div>
+  <div class='text-center'>
+    <div id='break'></div>
+    <button id='breakLess' class='btn btn-default'>-</button>
+    <button id='breakMore' class='btn btn-default'>+</button>
+  </div>
+<script type="text/javascript" src="pomodoro.js"></script>
+</body>
+</html>
